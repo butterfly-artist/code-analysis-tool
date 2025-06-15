@@ -19,10 +19,8 @@ export class SemanticAnalyzer {
     'src', 'str', 'str1', 'str2', 'arr', 'decimal', 'i', 'length', 'pattern', 'text', 'result',
     // C keywords and types
     'bool', 'char', 'int', 'float', 'double', 'void', 'return', 'if', 'else', 'while', 'for', 'do', 'break', 'continue',
-    // Add more as needed
   ]);
 
-  // Preprocessor directive keywords to ignore
   private preprocessorDirectives = new Set([
     '#include', '#define', '#ifdef', '#ifndef', '#endif', '#pragma'
   ]);
